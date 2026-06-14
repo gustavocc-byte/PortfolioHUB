@@ -2,7 +2,7 @@
 
 ## 🌟 Descrição
 
-O PortfolioHUB é uma plataforma desenvolvida com o propósito de reunir, organizar e apresentar projetos digitais em um único ambiente. Este projeto foi criado como parte das atividades da disciplina de **Bootcamp** do curso de **Ciências da Computação do Centro Universitário de Brasília (CEUB)**.
+O PortfolioHUB é uma plataforma desenvolvida com o propósito de reunir, organizar e apresentar projetos digitais em um único ambiente. Este projeto foi criado como parte das atividades da disciplina de **Bootcamp** do curso de **Engenharia de Software do Centro Universitário de Brasília (CEUB)**.
 
 O desenvolvimento e a implantação da plataforma tiveram como foco a utilização de ferramentas modernas do mercado, como Git, GitHub e Inteligência Artificial, proporcionando uma experiência prática em gerenciamento de projetos de software.
 
