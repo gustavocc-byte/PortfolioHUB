@@ -85,7 +85,7 @@ Este projeto contribui para minha formação como estudante de Ciência da Compu
 ## 📚 Instituição
 
 **Centro Universitário de Brasília (CEUB)**  
-Curso: Ciências da Computação  
+Curso: Engenharia de Software
 Disciplina: Bootcamp
 
 ---
