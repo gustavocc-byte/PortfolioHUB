@@ -98,7 +98,7 @@ Disciplina: Bootcamp
 Plataforma centralizada desenvolvida como entrega final do desafio para gerenciar projetos, exibir portfólios digitais e integrar práticas avançadas de segurança, controlo de acessos e versionamento com Git e GitHub.
 
 ## 🛠️ Tecnologias Utilizadas
-* **Frontend/Backend:** [Insira a stack, ex: HTML5, CSS3, JavaScript, React ou Node.js]
+* **Frontend/Backend:** [ HTML5, CSS3, JavaScript, React ou Node.js]
 * **Controlo de Versão:** Git e GitHub
 * **Ferramenta de Apoio & IA:** Google GEMINI (utilizado como copiloto para estruturação, boas práticas e código)
 
