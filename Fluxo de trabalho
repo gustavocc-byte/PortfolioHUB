@@ -1,0 +1,22 @@
+---
+
+## 🛑 Conteúdo para o ficheiro `.gitignore`
+
+Para garantir a segurança e evitar enviar ficheiros desnecessários ou confidenciais para o GitHub, crie um ficheiro chamado `.gitignore` com o seguinte conteúdo:
+
+```text
+# Dependências
+node_modules/
+
+# Variáveis de ambiente e segredos
+.env
+.env.local
+
+# Ficheiros de sistema
+.DS_Store
+Thumbs.db
+
+# Logs e builds de produção
+dist/
+build/
+*.log
