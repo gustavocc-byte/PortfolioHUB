@@ -93,3 +93,26 @@ Disciplina: Bootcamp
 ## 📌 Status do Projeto
 
 🟢 Em desenvolvimento e constante aprimoramento.
+# PortfolioHUB + IA GEMINI 🚀
+
+Plataforma centralizada desenvolvida como entrega final do desafio para gerenciar projetos, exibir portfólios digitais e integrar práticas avançadas de segurança, controlo de acessos e versionamento com Git e GitHub.
+
+## 🛠️ Tecnologias Utilizadas
+* **Frontend/Backend:** [Insira a stack, ex: HTML5, CSS3, JavaScript, React ou Node.js]
+* **Controlo de Versão:** Git e GitHub
+* **Ferramenta de Apoio & IA:** Google GEMINI (utilizado como copiloto para estruturação, boas práticas e código)
+
+---
+
+## ⚙️ Funcionalidades Principais
+* **Gestão de Utilizadores e Segurança:** Distinção de papéis (Visitante e Administrador) com controlo de acesso restrito ao painel de gestão.
+* **Repositório Centralizado:** Armazenamento estruturado de projetos utilizando as melhores práticas do Git Workflow (*Feature Branches* e *Pull Requests*).
+* **Proteção de Dados:** Ocultação de credenciais sensíveis através de variáveis de ambiente (`.env`).
+
+---
+
+## 📦 Como Executar o Projeto Localmente
+
+1. **Clonar o repositório:**
+   ```bash
+   git clone [https://github.com/SEU-UTILIZADOR/portfolio-hub.git](https://github.com/SEU-UTILIZADOR/portfolio-hub.git)
