@@ -116,3 +116,6 @@ Plataforma centralizada desenvolvida como entrega final do desafio para gerencia
 1. **Clonar o repositório:**
    ```bash
    git clone [https://github.com/SEU-UTILIZADOR/portfolio-hub.git](https://github.com/SEU-UTILIZADOR/portfolio-hub.git)
+   cd portfolio-hub
+   npm install
+   npm run dev
