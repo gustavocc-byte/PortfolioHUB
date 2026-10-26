@@ -1,0 +1,85 @@
+
+
+Plataforma centralizada para reunir, organizar e apresentar projetos digitais, com segurança, controle de acesso e versionamento via Git e GitHub. Desenvolvida como entrega final do desafio de implantação da disciplina de Bootcamp do curso de Engenharia de Software do Centro Universitário de Brasília (CEUB).
+
+🟢 Status: em desenvolvimento e constante aprimoramento.
+
+🎥 Vídeo de apresentação (5 min): [cole o link do YouTube]
+
+👨‍🎓 Desenvolvedor
+
+Gustavo Carvalho Costa, estudante de Engenharia de Software no CEUB, aprimorando conhecimentos em desenvolvimento, controle de versões, colaboração em equipe e boas práticas de programação.
+
+🎯 Objetivos da implantação
+Criar um ambiente organizado para armazenamento de projetos.
+Aplicar versionamento com Git e compartilhar código com o GitHub.
+Implementar práticas de segurança e organização de arquivos.
+Usar o Google Gemini como apoio no planejamento, na revisão de segurança e no desenvolvimento.
+🧰 Tecnologias e ferramentas
+Ferramenta	Finalidade
+Git	Controle de versões e histórico do projeto
+GitHub	Hospedagem do repositório, colaboração e controle de acesso
+Google Gemini	Copiloto: planejamento, boas práticas, revisão de segurança e código
+HTML5, CSS3, JavaScript, Node.js/React	Aplicação (ajuste conforme o que você usou)
+Java e Python	Estudos e exemplos de programação
+📋 Etapas da implantação
+Planejamento: plano de implantação em 6 etapas e configuração do Gemini como guia (prompt-base e registro de uso).
+Configuração inicial e GitHub: organização e repositório dedicados, estrutura de pastas, integração para armazenar projetos.
+Usuários e segurança: equipes e papéis, 2FA, proteção da main, secret scanning e auditoria de conformidade com o Gemini.
+Compartilhamento e acesso: fluxo de branches e Pull Requests, controle de versão e documentação de colaboração.
+Finalização e testes: integrações restantes, plano de testes e checklist de lançamento.
+Revisão final e apresentação: vídeo de 5 minutos no YouTube.
+⚙️ Funcionalidades principais
+Gestão de usuários e segurança: papéis de Visitante e Administrador, com acesso restrito ao painel de gestão.
+Repositório centralizado: projetos armazenados com Git Workflow (feature branches e Pull Requests).
+Proteção de dados: credenciais mantidas em variáveis de ambiente (.env), nunca no código.
+🔐 Segurança e boas práticas
+Controle de acesso ao repositório por papéis (Admin, Write, Read).
+Autenticação em dois fatores (2FA) ativa.
+main protegida: alterações apenas via Pull Request com revisão.
+Secret scanning, push protection e Dependabot ativados.
+Credenciais em .env (listado no .gitignore) ou em Secrets do GitHub.
+Arquivos separados em pastas específicas e alterações documentadas em commits.
+👥 Práticas de colaboração e Git Workflow
+Branch	Uso	Regra
+main	Versão estável, pronta para entrega	Nenhum commit direto; só via Pull Request aprovado
+develop	Integração das funcionalidades	Testes devem passar antes do merge
+feature/*	Uma funcionalidade ou requisito (ex.: feature/gestao-usuarios, feature/seguranca)	Criada a partir de develop, apagada após o merge
+bash
+git checkout develop
+git checkout -b feature/nome-da-funcionalidade
+# faça as alterações
+git add .
+git commit -m "feat: descreve a alteração"
+git push -u origin feature/nome-da-funcionalidade
+# abra um Pull Request para develop e peça revisão
+
+Padrão de commits: feat: (nova funcionalidade), fix: (correção), docs: (documentação), chore: (manutenção).
+
+Exemplos de commits realizados:
+
+Inicialização do repositório PortfolioHUB
+Criação da documentação principal
+Adição da estrutura inicial do projeto
+Implementação das configurações de segurança
+🧪 Testes da implantação
+ Organização dos diretórios do projeto
+ Funcionamento do repositório no GitHub
+ Registro correto das versões pelo Git
+ Aplicação das configurações de segurança
+ Teste de login e papéis (Visitante e Administrador)
+ Bloqueio de push direto na main
+📦 Como executar localmente
+bash
+git clone https://github.com/SEU-USUARIO/portfolio-hub.git
+cd portfolio-hub
+cp .env.example .env   # preencha com suas credenciais
+npm install
+npm run dev
+🎯 Conclusão
+
+A implantação permitiu aplicar na prática os conceitos da disciplina de Bootcamp: controle de versões, documentação, segurança e uso de IA como apoio ao desenvolvimento, fortalecendo o aprendizado de Git, GitHub, Java, Python e Inteligência Artificial aplicada à engenharia de software.
+
+📚 Instituição
+
+Centro Universitário de Brasília (CEUB) · Curso: Engenharia de Software · Disciplina: Bootcamp
